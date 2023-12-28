@@ -17,10 +17,11 @@ const AboutMe = () => {
       <Box maxW="750px" bgColor={secondaryColor} borderRadius="lg" padding={3} paddingLeft={35}>
         <Heading as="h2" size="xl" mb={4}>Hi, I'm Liam</Heading>
         <Text fontSize="lg" mb={2}>
-          An enthusiastic UI/UX Designer with a passion for creating engaging user experiences.
+          I'm a Full Stack Software Engineer passionate about providing innovative solutions for customers.
         </Text>
         <Text fontSize="md" mb={4}>
-          With over X years in the design industry, I specialize in [specific skills or areas]. My approach combines innovative design with user-centric principles to deliver memorable digital solutions.
+          With a background in Computer Vision and Deep Learning, I'm always looking for new ways to apply my skills to solve problems. I have experience with a wide range of technologies, including React, Node.js, Python, and C++,
+          allowing me to build full stack applications from the ground up.
         </Text>
         <Flex mb={4}>
           <Badge borderRadius="full" px="2" colorScheme="teal" mr={2}>Computer Vision</Badge>
