@@ -1,3 +1,18 @@
+:root {
+  --primary-color: #003366;
+  --secondary-color: #C0C0C0;
+  --accent-color: #007FFF;
+  --background-color: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.react-pdf__Page__textContent {
+  display: none !important;
+}
+
 .App {
   text-align: center;
 }
