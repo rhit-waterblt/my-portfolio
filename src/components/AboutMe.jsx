@@ -23,7 +23,7 @@ const AboutMe = () => {
           With a background in Computer Vision and Deep Learning, I'm always looking for new ways to apply my skills to solve problems. I have experience with a wide range of technologies, including React, Node.js, Python, and C++,
           allowing me to build full stack applications from the ground up.
         </Text>
-        <Flex mb={4}>
+        <Flex mb={4} justifyContent="center" alignItems="center">
           <Badge borderRadius="full" px="2" colorScheme="teal" mr={2}>Computer Vision</Badge>
           <Badge borderRadius="full" px="2" colorScheme="green" mr={2}>Deep Learning</Badge>
           <Badge borderRadius="full" px="2" colorScheme="teal" mr={2}>Full Stack Development</Badge>

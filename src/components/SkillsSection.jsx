@@ -4,12 +4,12 @@ import { useInView } from 'react-intersection-observer';
 import { useEffect, useState } from 'react';
 
 const skills = [
-  { name: 'HTML', level: 90 },
-  { name: 'CSS', level: 85 },
-  { name: 'JavaScript', level: 55 },
-  { name: 'HTML', level: 90 },
-  { name: 'CSS', level: 85 },
-  { name: 'JavaScript', level: 55 },
+  { name: 'Java', level: 95 },
+  { name: 'Python', level: 95 },
+  { name: 'React', level: 80 },
+  { name: 'Typescript', level: 75 },
+  { name: 'Deep Learning', level: 60 },
+  { name: 'Comp Vision', level: 55 },
 ];
 
 const backgroundColor = "brand.background";
@@ -49,6 +49,7 @@ const SkillsSection = () => {
     <Box as="section" p={8}>
       <HStack mb={10} spacing={10}>
         <VStack>
+          <Heading as="h2" size="lg" mb={4}>How I would rate my ability</Heading>
           <HStack mb={10} bgColor={secondaryColor} borderRadius="lg" p={3}>
             {skills.map((skill, index) => (
               <div key={index}>
@@ -77,15 +78,15 @@ const SkillsSection = () => {
           </HStack>
         </VStack>
         <Box maxW="600px" bgColor={secondaryColor} borderRadius="lg" padding={3}>
-          <Heading as="h2" size="lg" mb={4}>Where I am now</Heading>
-          <Text fontSize="lg" mb={2}>
-            Talk about skills from Telemetry.
+          <Heading as="h2" size="lg" mb={4}>Where am I now?</Heading>
+          {/* <Text fontSize="lg" mb={2}>
+            I've learned how to be a full stack developer through my time with Telemetry Sports and my personal projects. In addition, I understand how to work with customers to deliever a product that exceeds expectations.
+          </Text> */}
+          <Text fontSize="md" mb={4}>
+            By closely working with clients through my time with Telemetry Sports and as a consultant for Edgile, I've learned how to communicate effectively with customers to understand their needs and deliver a product that exceeds expectations.
           </Text>
           <Text fontSize="md" mb={4}>
-            Talk about soft skills and stuff from machine learning and projects.
-          </Text>
-          <Text fontSize="md" mb={4}>
-            Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            I have maintained and developed products back to front and I am driven to continue learning and am always looking for new opportunities to grow my skills. In particular, I am always looking for ways to combine my passions for soccer, computer vision, and software development.
           </Text>
         </Box>
       </HStack>

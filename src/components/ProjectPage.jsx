@@ -8,7 +8,7 @@ const projects = projectCardInfo;
 
 const ProjectPage = () => {
     return (
-        <BubbleSection title="My Projects" mt={0}>
+        <BubbleSection title="My Projects">
             <Box as="section" p={8}>
                 <Text fontSize="lg" mb={10}>
                     I strongly believe in project based learning. Here are some of my favorite projects I've worked on.

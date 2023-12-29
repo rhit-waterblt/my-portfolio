@@ -12,4 +12,7 @@ const Blog = () => {
     );
 };
 
+// TODO: Talk about experience from internships
+// TODO: Talk about work with current projects
+
 export default Blog;
