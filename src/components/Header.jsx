@@ -11,7 +11,7 @@ const Header = () => {
   const accentColor = "brand.accent";
 
   return (
-    <Box as="header" bg={backgroundColor} w="100%" boxShadow="md" p={4}>
+    <Box as="header" bg={backgroundColor} w="100%" boxShadow="md" p={4} borderBottom="1px solid" borderColor={accentColor}>
       <Flex alignItems="center" justifyContent="space-between" maxW="1200px" mx="auto">
         <Flex alignItems="center">
           <RouterLink to="/">

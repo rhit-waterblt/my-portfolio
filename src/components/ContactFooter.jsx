@@ -11,7 +11,7 @@ const ContactFooter = () => {
   const accentColor = "brand.accent";
 
   return (
-    <Box id="contactFooter" as="footer" bg={backgroundColor} color={textColor} p={10}>
+    <Box id="contactFooter" as="footer" bg={backgroundColor} color={textColor} p={10} borderTop="1px solid" borderColor={accentColor}>
       <VStack spacing={4} align="stretch" mb={6}>
         <Text fontSize="2xl" fontWeight="bold" textAlign="center">
           Let's Connect!
