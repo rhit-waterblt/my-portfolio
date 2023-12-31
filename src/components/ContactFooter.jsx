@@ -6,8 +6,8 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const ContactFooter = () => {
   const backgroundColor = "brand.background";
   const textColor = "brand.text";
-  const primaryColor = "brand.primary";
-  const secondaryColor = "brand.secondary";
+  // const primaryColor = "brand.primary";
+  // const secondaryColor = "brand.secondary";
   const accentColor = "brand.accent";
 
   return (

@@ -12,11 +12,11 @@ const skills = [
   { name: 'Comp Vision', level: 55 },
 ];
 
-const backgroundColor = "brand.background";
-const textColor = "brand.text";
-const primaryColor = "brand.primary";
+// const backgroundColor = "brand.background";
+// const textColor = "brand.text";
+// const primaryColor = "brand.primary";
 const secondaryColor = "brand.secondary";
-const accentColor = "brand.accent";
+// const accentColor = "brand.accent";
 
 const SkillCircle = ({ skill, level, index }) => {
   const [progress, setProgress] = useState(0);
@@ -79,9 +79,6 @@ const SkillsSection = () => {
         </VStack>
         <Box maxW="600px" bgColor={secondaryColor} borderRadius="lg" padding={3}>
           <Heading as="h2" size="lg" mb={4}>Where am I now?</Heading>
-          {/* <Text fontSize="lg" mb={2}>
-            I've learned how to be a full stack developer through my time with Telemetry Sports and my personal projects. In addition, I understand how to work with customers to deliever a product that exceeds expectations.
-          </Text> */}
           <Text fontSize="md" mb={4}>
             By closely working with clients through my time with Telemetry Sports and as a consultant for Edgile, I've learned how to communicate effectively with customers to understand their needs and deliver a product that exceeds expectations.
           </Text>

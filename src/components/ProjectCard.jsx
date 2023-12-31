@@ -13,10 +13,10 @@ const ProjectCard = ({ id, title, description, imageUrl, useInViewFlag = true })
         triggerOnce: true, // Change to make animation repeat
     });
 
-    const backgroundColor = "brand.background";
-    const textColor = "brand.text";
-    const primaryColor = "brand.primary";
-    const secondaryColor = "brand.secondary";
+    // const backgroundColor = "brand.background";
+    // const textColor = "brand.text";
+    // const primaryColor = "brand.primary";
+    // const secondaryColor = "brand.secondary";
     const accentColor = "brand.accent";
 
     return (
@@ -35,7 +35,7 @@ const ProjectCard = ({ id, title, description, imageUrl, useInViewFlag = true })
                 <Box p={5}>
                     <Heading size="md" mb={2}>{title}</Heading>
                     <Text mb={4}>{description}</Text>
-                    <ChakraLink href={`/projects/${id}`} isExternal color={accentColor}>
+                    <ChakraLink href={`/projects/${id}`} color={accentColor}>
                         Learn More
                     </ChakraLink>
                 </Box>

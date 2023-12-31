@@ -3,11 +3,11 @@ import { Box, Heading, Text, Image, Flex, Badge, Button } from '@chakra-ui/react
 import { Link as ScrollLink } from 'react-scroll';
 
 const AboutMe = () => {
-  const backgroundColor = "brand.background";
-  const textColor = "brand.text";
-  const primaryColor = "brand.primary";
+  // const backgroundColor = "brand.background";
+  // const textColor = "brand.text";
+  // const primaryColor = "brand.primary";
   const secondaryColor = "brand.secondary";
-  const accentColor = "brand.accent";
+  // const accentColor = "brand.accent";
 
   return (
     <Flex alignItems="center" justifyContent="space-around" p={8}>

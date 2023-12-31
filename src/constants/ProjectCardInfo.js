@@ -50,7 +50,7 @@ export const projectCardInfo = [
             'Conducted comprehensive research to curate a dataset suitable for geolocation prediction.',
             'Learned about the challenges and strategies for improving neural network performance on complex image data.'
         ],
-        reportUrl: "" // Include report PDF URL if available
+        reportUrl: process.env.PUBLIC_URL + '/GeoguessrFinalReport.pdf'
     },
     {
         id: 4,
@@ -63,7 +63,7 @@ export const projectCardInfo = [
             'Investigated morphological operations to improve the accuracy and reliability of image classification.',
             'Developed a classification system capable of distinguishing between different types of fruit in a variety of contexts.'
         ],
-        reportUrl: "" // Include report PDF URL if available
+        reportUrl: process.env.PUBLIC_URL + '/FruitFinderReport.pdf'
     },
     {
         id: 5,
@@ -115,7 +115,7 @@ export const projectCardInfo = [
             'Developed proficiency in statistical analysis tools and techniques for meaningful data interpretation.',
             'Gained valuable insights into the dynamics of academic progress rates across different sports and genders.'
         ],
-        reportUrl: "" // Include report PDF URL if available
+        reportUrl: process.env.PUBLIC_URL + '/FinalReport.pdf'
     },
     {
         id: 9,
