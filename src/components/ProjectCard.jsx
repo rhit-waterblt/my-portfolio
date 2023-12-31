@@ -8,7 +8,7 @@ const cardVariants = {
     visible: { opacity: 1 },
 };
 
-const ProjectCard = ({ id, title, description, imageUrl, projectUrl, useInViewFlag = true }) => {
+const ProjectCard = ({ id, title, description, imageUrl, useInViewFlag = true }) => {
     const [ref, inView] = useInView({
         triggerOnce: true, // Change to make animation repeat
     });
@@ -35,7 +35,7 @@ const ProjectCard = ({ id, title, description, imageUrl, projectUrl, useInViewFl
                 <Box p={5}>
                     <Heading size="md" mb={2}>{title}</Heading>
                     <Text mb={4}>{description}</Text>
-                    <ChakraLink href={projectUrl} isExternal color={accentColor}>
+                    <ChakraLink href={`/projects/${id}`} isExternal color={accentColor}>
                         Learn More
                     </ChakraLink>
                 </Box>
